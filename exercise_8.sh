@@ -7,7 +7,7 @@ for FILE in $FILES;
   do
     if [ -f "$FILE" ]
       then
-        echo "$FILE is a reguler file"
+        echo "$FILE is a regular file"
     elif [ -d "$FILE" ]
       then
         echo "$FILE is a directory"
